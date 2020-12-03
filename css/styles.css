@@ -1,5 +1,5 @@
 .top-container {
-  background-color:#EAF6F6;
+  background-color: #eaf6f6;
   position: relative;
   padding-top: 100px;
 }
@@ -13,12 +13,11 @@
   width: 100px;
   height: 100;
 }
-a{
-    font-family: "Montserrat", sans-serif;
+a {
+  font-family: "Montserrat", sans-serif;
 }
 .footer-link {
   color: #11999e;
-  
 }
 .copyright {
   color: #eaf6f6;
@@ -26,11 +25,9 @@ a{
 .my-pic {
   margin-top: 10px;
   width: 170px;
-  
-  
 }
 body {
-    color:#40514E;
+  color: #40514e;
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
@@ -65,7 +62,6 @@ h2 {
   font-size: 2.5rem;
   color: #66bfbf;
   font-weight: normal;
-  
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -80,10 +76,15 @@ h3 {
   animation: bottomc 15s infinite;
 }
 @keyframes bottomc {
-  from {left: 0px;opacity: 1;}
-  to {left: 700px;opacity: 0;}
+  from {
+    left: 0px;
+    opacity: 1;
+  }
+  to {
+    left: 730px;
+    opacity: 0;
+  }
 }
-
 
 .top-cloud {
   position: absolute;
@@ -91,61 +92,67 @@ h3 {
   top: 50px;
   animation-timing-function: linear;
   animation: topc 13s infinite;
-}@keyframes topc {
-  
-  from {right: 0px; opacity: 1;}
-  to {right: 700px; opacity: 0;}
+}
+
+
+@keyframes topc {
+  from {
+    right: 0px;
+    opacity: 1;
+  }
+  to {
+    right: 730px;
+    opacity: 0;
+  }
 }
 .btn {
-	box-shadow: 3px 4px 0px 0px #899599;
-	background:linear-gradient(to bottom, #ededed 5%, #66bfbf 100%);
-	background-color:#ededed;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
-	display:inline-block;
-	cursor:pointer;
-	color:#3a8a9e;
-	font-family:Arial;
-	font-size:15px;
-	padding:7px 25px;
-	text-decoration:none;
-    text-shadow:0px 1px 0px #e1e2ed;
-    position: relative;
-    margin-bottom: 50px;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #66bfbf 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #3a8a9e;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  position: relative;
+  margin-bottom: 50px;
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #66bfbf 5%, #ededed 100%);
-	background-color:#66bfbf;
+  background: linear-gradient(to bottom, #66bfbf 5%, #ededed 100%);
+  background-color: #66bfbf;
 }
 .btn:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-hr{
-    border-style: none;
-    border-top-style:dotted ;
-    border-color: grey;
-    border-width: 6px;
-    width: 10%;
-
-}
-
-p{
-    line-height: 2;
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 10%;
 }
 
-.react-img{
-    width: 13rem;
+p {
+  line-height: 2;
+}
 
+.react-img {
+  width: 13rem;
 }
-.mongo-img{
-    width: 13rem;
+.mongo-img {
+  width: 13rem;
 }
-.node-img{
-    width: 13rem;
+.node-img {
+  width: 13rem;
 }
-.var-img{
-    position: relative;
-    margin: 0;
-    width: auto;
+.var-img {
+  position: relative;
+  margin: 0;
+  width: auto;
 }
