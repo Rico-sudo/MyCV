@@ -1,0 +1,136 @@
+.top-container {
+  background-color:#EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.geo-img {
+  width: 100px;
+  height: 100;
+}
+a{
+    font-family: "Montserrat", sans-serif;
+}
+.footer-link {
+  color: #11999e;
+  
+}
+.copyright {
+  color: #eaf6f6;
+}
+.my-pic {
+  width: 180px;
+  height: 120px;
+  border-radius: 16px;
+  box-shadow: 3px 3px blue;
+}
+body {
+    color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.c-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+h1 {
+  margin: 2.6rem auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.btn {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #66bfbf 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+    position: relative;
+    margin-bottom: 50px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #ededed 100%);
+	background-color:#66bfbf;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+hr{
+    border-style: none;
+    border-top-style:dotted ;
+    border-color: grey;
+    border-width: 6px;
+    width: 10%;
+
+}
+
+p{
+    line-height: 2;
+}
+
+.react-img{
+    width: 13rem;
+
+}
+.mongo-img{
+    width: 13rem;
+}
+.node-img{
+    width: 13rem;
+}
+.var-img{
+    position: relative;
+    margin: 0;
+    width: auto;
+}
