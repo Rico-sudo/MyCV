@@ -81,7 +81,7 @@ h3 {
 }
 @keyframes bottomc {
   from {left: 0px;opacity: 1;}
-  to {left: 800px;opacity: 0;}
+  to {left: 700px;opacity: 0;}
 }
 
 
@@ -90,11 +90,11 @@ h3 {
   right: 300px;
   top: 50px;
   animation-timing-function: linear;
-  animation: topc 15s infinite;
+  animation: topc 13s infinite;
 }@keyframes topc {
   
   from {right: 0px; opacity: 1;}
-  to {right: 800px; opacity: 0;}
+  to {right: 700px; opacity: 0;}
 }
 .btn {
 	box-shadow: 3px 4px 0px 0px #899599;
