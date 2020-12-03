@@ -76,11 +76,24 @@ h3 {
   position: absolute;
   left: 250px;
   bottom: 300px;
+  animation-timing-function: linear;
+  animation: bottomc 15s infinite;
 }
+@keyframes bottomc {
+  from {left: 0px;}
+  to {left: 900px;}
+}
+
+
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
+  animation-timing-function: linear;
+  animation: mymove 15s infinite;
+}@keyframes mymove {
+  from {right: 0px;}
+  to {right: 900px;}
 }
 .btn {
 	box-shadow: 3px 4px 0px 0px #899599;
