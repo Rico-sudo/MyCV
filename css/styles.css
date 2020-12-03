@@ -81,7 +81,7 @@ h3 {
 }
 @keyframes bottomc {
   from {left: 0px;}
-  to {left: 900px;}
+  to {left: 800px;}
 }
 
 
@@ -90,10 +90,10 @@ h3 {
   right: 300px;
   top: 50px;
   animation-timing-function: linear;
-  animation: mymove 15s infinite;
-}@keyframes mymove {
+  animation: topc 15s infinite;
+}@keyframes topc {
   from {right: 0px;}
-  to {right: 900px;}
+  to {right: 800px;}
 }
 .btn {
 	box-shadow: 3px 4px 0px 0px #899599;
