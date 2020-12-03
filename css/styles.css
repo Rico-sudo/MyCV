@@ -80,7 +80,7 @@ h3 {
   animation: bottomc 15s infinite;
 }
 @keyframes bottomc {
-  from {left: -100px;opacity: 1;}
+  from {left: 0px;opacity: 1;}
   to {left: 800px;opacity: 0;}
 }
 
@@ -93,7 +93,7 @@ h3 {
   animation: topc 15s infinite;
 }@keyframes topc {
   
-  from {right: -100px; opacity: 1;}
+  from {right: 0px; opacity: 1;}
   to {right: 800px; opacity: 0;}
 }
 .btn {
